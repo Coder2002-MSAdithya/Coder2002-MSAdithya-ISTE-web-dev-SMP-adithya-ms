@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 1 Assignment</title>
+    <style>
+        div{
+            margin-bottom: 1rem;
+            padding-block: 0.5rem 0.5rem;
+        }
+        span{
+            display: block;
+            margin-bottom: 10px;
+        }
+        .branch-wrapper{
+            margin-bottom: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Register Yourself</h1>
+    <p>Your data is safe with us.We are collecting this data to know more about you.Knowing you will help us.</p>
+    <h1>Fill this form</h1>
+    <form action="#">
+        <div class="first-name-wrapper">
+            <label for="first-name">First Name:</label>
+            <input type="text" name="firstname" id="first-name">
+        </div>
+        <div class="last-name-wrapper">
+            <label for="last-name">Last Name:</label>
+            <input type="text" name="lastname" id="last-name">
+        </div>
+        <div class="dob-wrapper">
+            <label for="dob">Date of birth: </label>
+            <input type="date" name="dob" id="dob">
+        </div>
+        <hr>
+        <div class="email-id-wrapper">
+            <label for="email-id">Email Id:</label>
+            <input type="email" name="email" id="email-id">
+        </div>
+        <div class="contact-number-wrapper">
+            <label for="phone-no">Contact number:</label>
+            <input type="number" name="phone" id="phone-no">
+        </div>
+        <div class="password-wrapper">
+            <label for="password">Password:</label>
+            <input type="password" name="pwd" id="password">
+        </div>
+        <hr>
+        <div class="branch-wrapper">
+            <label for="branch">Your Branch:</label>
+            <select name="branch" id="branch">
+                <option value="CSE">Computer Science and Engineering</option>
+                <option value="ECE">Electronics and Communication Engineering</option>
+                <option value="ME">Mechanical Engineering</option>
+            </select>
+        </div>
+        <div class="year-wrapper">
+            <label for="year">Current Year: </label>
+            <input type="radio" name="year" id="year-1">
+            <label for="year-1">1st year</label>
+            <input type="radio" name="year" id="year-2">
+            <label for="year-2">2nd year</label>
+            <input type="radio" name="year" id="year-3">
+            <label for="year-3">3rd year</label>
+            <input type="radio" name="year" id="year-4">
+            <label for="year-4">4th year</label>
+        </div>
+        <div class="interests-wrapper">
+            <fieldset>
+                <legend>Interests</legend>
+                <span>
+                    <input type="checkbox" name="interests" id="sports" value="Sports">
+                    <label for="sports">Sports</label>
+                </span>
+                <span>
+                    <input type="checkbox" name="interests" id="music" value="music">
+                    <label for="music">Music</label>
+                </span>
+                <span>
+                    <input type="checkbox" name="interests" id="coding" value="coding">
+                    <label for="coding">Coding</label>
+                </span>
+            </fieldset>
+        </div>
+        <div class="address-wrapper">
+            <label for="address">Address:</label>
+            <textarea name="address" id="address" cols="30" rows="10"></textarea>
+        </div>
+        <div class="submit-btn-wrapper">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
