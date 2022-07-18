@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #009578;
+    font-family: sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.note{
+    width: 200px;
+    height: 150px;
+    padding: 10px 20px;
+    resize: none;
+    font-family: inherit;
+    font-weight: bold;
+    border-radius: 1rem;
+}
+
+.add-note{
+    text-align: center;
+    cursor: pointer;
+    font-size: 12rem;
+    width: 200px;
+    background: #009578;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.11);
+    font-family: inherit;
+    transition: background 0.11s ease-in-out;
+    border-radius: 1.5rem;
+}
+
+.add-note:hover{
+    background: rgba(0, 0, 0, 0.43);
+}
